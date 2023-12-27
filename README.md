@@ -1,6 +1,6 @@
 # SSH tunnel for free
 
-Unfortunately, free version of ngrok changes external address each start.I got a little creative and decided to transfer the address through Telegram using a bot. Bot is written in Bash just for me learning new concepts at a time. 
+Unfortunately, free version of ngrok changes external address each start.I got a little creative and decided to transfer the address through Telegram using a bot. 
 `keys.sh` is what keys should look like. 
 `API_KEY` can be retrieved from BotFather.
 `CHAT_ID` is a group. You need to create it, then add bot there. 
@@ -28,3 +28,7 @@ Then the unit shall be activated:
 If autostart even before login is desired, run:
 
     sudo loginctl enable-linger $USERNAME
+
+It is more natural to attain the same result via python-telegram-bot or cpphttplib (for example) and what I am actually going to do, but ths bot has been written in Bash just for me learning new concepts at a time. 
+
+
