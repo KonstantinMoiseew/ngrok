@@ -1,6 +1,6 @@
 # SSH tunnel for free
 
-Unfortunately, free version of ngrok changes external address each start.I got a little creative and decided to transfer the address through Telegram using a bot. This bot is rewritten as it would actually have been done.
+Unfortunately, free version of ngrok changes external address each start.I got a little creative and decided to transfer the address through Telegram using a bot. This bot is rewritten as it would actually have been done with cpphttplib.
 `keys.sh` is what keys should look like. 
 `API_KEY` can be retrieved from BotFather.
 `CHAT_ID` is a group. You need to create it, then add bot there. 
